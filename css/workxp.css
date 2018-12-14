@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(../fonts/Montserrat-Light.otf);
+}
+
 a {
 	text-decoration: none ;
 }
@@ -5,7 +10,7 @@ a {
 .header {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr) ;
-	font-family:montserrat ;
+	font-family: Montserrat ;
 	padding: 5px;
 	margin-top: 0px ;
 	background: #373737 ;
@@ -109,7 +114,7 @@ li {
 
 .footer {
 	border-top: 3px solid #373737 ;
-	font-family: montserrat ;
+	font-family: Montserrat ;
 	font-size: 13px;
 	background: #DCD0C0 ; 
 	display: grid ;
