@@ -1,0 +1,136 @@
+a {
+	text-decoration: none ;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) ;
+	font-family:montserrat ;
+	padding: 5px;
+	margin-top: 0px ;
+	background: #373737 ;
+	color: white ;
+	opacity: 0.9 ;
+}
+
+.logo {
+	grid-column: 1/2 ;
+}
+
+.menubar {
+	padding-top: 15px;
+	grid-column: 2/4 ;
+}
+
+#mbbb {
+	font-size: 13px ;
+	padding: 5px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+	color: white ;
+	list-style: none ;
+	padding: 2px ;
+}
+.button:hover {
+	color: grey ;
+}
+
+
+.wmain {
+	background-image: url(../images/gg.jpg) ;
+	background-size: cover ;
+	background-position: fixed;
+	font-family: century gothic ;
+	padding: 30px ;
+	display: grid ;
+	grid-template-columns: repeat(3, 1fr) ;
+}
+
+.title {
+	grid-column: 1/4;
+	grid-row: 1/2;
+	border-bottom: 5px solid #373737;
+	font-size: 25px;
+	height: 100px;
+	line-height: 1px;
+}
+
+.wxp {
+	text-align: right ;
+	grid-columm: 2/3;
+	grid-row: 2/4;
+}
+
+.actual {
+	margin-right: 150px; 
+	padding-right: 50px;
+	grid-column: 3/4 ;
+	grid-row: 2/4 ;
+}
+
+.skillz {
+	background-image: url(../images/bg.jpg) ;
+	background-position: fixed ;
+	background-size: cover ;
+	font-family: century gothic ;
+	padding: 30px ;
+	display: grid ;
+	grid-template-columns: repeat(3, 1fr) ;
+}
+
+.ttl {
+	grid-column: 1/4;
+	grid-row: 1/2;
+	border-bottom: 5px solid #373737;
+	font-size: 25px;
+	height: 100px;
+	line-height: 1px;
+}
+
+
+li {
+	margin: 10px; 
+	padding: 10px ;
+}
+
+.1li {
+	grid-columm: 1/2 ;
+}
+
+.2li {
+	grid-columm: 2/3;
+}
+
+.footer {
+	border-top: 3px solid #373737 ;
+	font-family: montserrat ;
+	font-size: 13px;
+	background: #DCD0C0 ; 
+	display: grid ;
+	grid-gap: 10px ;
+	grid-template-columns: repeat(4, 1fr) ;
+	padding: 10px ;
+}
+
+.no {
+	margin-left: 50px ;
+	grid-columm: 2/3 ;
+}
+
+.accts {
+	grid-column: 3/5 ;
+}
+
+#social {
+	list-style: none;
+	display: grid ;
+	grid-gap: 0px ;
+	grid-template-columns: repeat(13, 1fr) ;
+	padding-left: 1px;
+}

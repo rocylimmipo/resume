@@ -1,0 +1,132 @@
+a {
+	text-decoration: none ;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) ;
+	font-family:montserrat ;
+	padding: 5px;
+	margin-top: 0px ;
+	background: #373737 ;
+	color: white ;
+	opacity: 0.9 ;
+}
+
+.logo {
+	grid-column: 1/2 ;
+}
+
+.menubar {
+	padding-top: 15px;
+	grid-column: 2/4 ;
+}
+
+#mbbb {
+	font-size: 13px ;
+	padding: 5px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+	color: white ;
+	list-style: none ;
+	padding: 2px ;
+}
+.button:hover {
+	color: grey ;
+}
+
+li {
+	list-style: none ;
+}
+
+.sc {
+	padding: 150px ;
+	background-image: url(../images/sc.jpg) ;
+	background-repeat: no repeat ;
+	background-size: cover ;
+	background-position: fixed ;
+	color: black ;
+	margin: 0px ;
+	display: grid ;
+	grid-gap: 5px ;
+	grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.meh {
+	margin-left: 50px; 
+	grid-column: 1/2 ;
+}
+
+.meh img {
+	border-radius: 50% ;
+}
+
+.bsinfo {
+	font-family: Century Gothic ;
+	margin-top: 30px ;
+	font-size: 20px ;
+	grid-column: 2/4 ; 
+}
+
+.perinfo {
+	font-family: Century Gothic ;
+	font-size:20px;
+	display: grid ;
+	grid-template-columns: 1fr 1fr ;
+}
+
+.t {
+	padding: 25px; 
+	padding-right: 20px;
+	text-align: right ;
+	grid-columm: 1/2 ;
+	background-image: url(../images/pi.jpg) ;
+	background-size: cover ;
+	background-position: fixed ;
+	opacity: 0.9 ;
+	color: black ;
+}
+
+
+.aa {
+	padding:25px;
+	padding-left:20px; 
+	grid-columm: 2/3 ;
+	background: #f4f4f4;
+	color: #373737 ;
+}  
+
+.footer {
+	border-top: 3px solid #373737 ;
+	font-family: montserrat ;
+	font-size: 13px;
+	background: #DCD0C0 ; 
+	display: grid ;
+	grid-gap: 10px ;
+	grid-template-columns: repeat(4, 1fr) ;
+	padding: 10px ;
+}
+
+
+.no {
+	margin-left: 50px ;
+	grid-columm: 2/3 ;
+}
+
+.accts {
+	grid-column: 3/5 ;
+}
+
+#social {
+	list-style: none;
+	display: grid ;
+	grid-gap: 0px ;
+	grid-template-columns: repeat(13, 1fr) ;
+	padding-left: 1px;
+}
